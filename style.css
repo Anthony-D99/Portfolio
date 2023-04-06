@@ -38,10 +38,24 @@ a {
     font-size: 30px;
     
 }
+.article {
+    display: inline-block;
+    
+    
+}
 .article h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 75;
+    color: white;
+    margin-top: 50px;
+    background-color: lightseagreen;
+    padding: 10px;
     font-size: 50px;
 }
 .article p {
     font-size: 25px;
+    margin-left: 200%;
+    display: flex;
+    
 
 }
