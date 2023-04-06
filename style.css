@@ -1,18 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 body {
-    background-color: rgb(192, 219, 228);
+    background-color: lightblue;
 
 }
 header {
     font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    background-color: darkblue;
 }
 .header h1{
     display: inline-block;
-    background-color: darkblue;
     color: white;
-    padding: 20px;
-    margin-left: 0px;
-    margin-top: 0px;
     font-size: 45px;
+    background-color: lightseagreen;
+    padding: 5px; padding-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 75
+    
 }
 .header div{
     float: right;
@@ -29,4 +37,11 @@ a {
     text-decoration: none;
     font-size: 30px;
     
+}
+.article h2 {
+    font-size: 50px;
+}
+.article p {
+    font-size: 25px;
+
 }
