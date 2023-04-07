@@ -12,9 +12,10 @@ header {
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;
     background-image: url(../images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
-    color: black;
     background-size: cover;
     background-position: center;
+    color: black;
+
 }
 .header h1{
     display: inline-block;
@@ -24,8 +25,10 @@ header {
     
 }
 .header h1::before {
-    height: 30px;
-    width: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 10px;
+    width: 2%;
 
 }
 .header div{
@@ -44,8 +47,21 @@ ul a {
     font-size: 30px;
     
 }
+.subtitle{
+    font-size: 45px;
+    background-image: url(../images/adrian-infernus-GLf7bAwCdYg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 28px;
+    display: inline;
+    position: absolute;
+    margin-left: 74%;
+    margin-top: -200px;
+    
+}
 .article {
     display: inline-block;
+    
     
     
 }
@@ -67,12 +83,17 @@ ul a {
     display: flex;
     flex-wrap: wrap;
     margin-right: 350px;
-    color: red;
-    font-size: 25px;
     position: relative;
     margin-left: 500px;
+    color: black;
+    font-size: 25px;
+    justify-content: center;    
     border-style: solid;
     border-width: 3px;
+}
+.work-section{
+    
+
 }
 .cherry-blossom {
     height: 600px;
