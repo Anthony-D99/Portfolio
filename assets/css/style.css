@@ -16,7 +16,6 @@ header {
     display: inline-block;
     color: white;
     font-size: 45px;
-    background-color: lightseagreen;
     padding: 5px; padding-left: 60px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 75
@@ -32,7 +31,7 @@ header {
         margin-top: 20px;
         margin-right: 50px;
 } 
-a {
+ul a {
     color: #ffffff;
     text-decoration: none;
     font-size: 30px;
@@ -43,6 +42,7 @@ a {
     
     
 }
+
 .article h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 75;
@@ -51,11 +51,19 @@ a {
     background-color: lightseagreen;
     padding: 10px;
     font-size: 50px;
+    display: inline-block;
 }
-.article p {
-    font-size: 25px;
-    margin-left: 200%;
-    display: flex;
-    
 
+.article p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 350px;
+    color: red;
+    font-size: 25px;
+    position: relative;
+    margin-left: 500px;
+    border-style: solid;
+    border-width: 3px;
+    background-color: black;
+    
 }
