@@ -79,22 +79,46 @@ ul a {
 
 }
 
-.article p {
+.article-about-me {
     display: flex;
     flex-wrap: wrap;
-    margin-right: 350px;
-    position: relative;
-    margin-left: 500px;
     color: black;
     font-size: 25px;
     justify-content: center;    
     border-style: solid;
     border-width: 3px;
+    margin-left: 400px;
+    margin-right: 300px;
+    margin-top: -100px;
 }
-.work-section{
-    
+.work-section {
+    position: relative;
+    display: inline-block;
+    margin-left: 400px;
+    margin-bottom: 400px;
+    margin-top: 300px;
+}
+.text-box-calc{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: rgb(252, 241, 243);
+    color: black;
+    border-style: double;
+    padding: 3px;
 
 }
+.text-box-led{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    background-color: rgb(252, 241, 243);
+    color: black;
+    border-style: double;
+    padding: 3px;
+
+}
+
 .cherry-blossom {
     height: 600px;
     width: 100%;
