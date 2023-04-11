@@ -82,8 +82,9 @@ h2 {
     justify-content: center;    
     border-style: double;
     border-width: 3px;
-    margin-left: 200px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 500px;
+    margin-top: 60px;
 }
 .work-div {
     display: flex;
@@ -94,20 +95,26 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
 }
-.calc-img {
+.first-img {
     background-image: url(../images/mark-tegethoff-NMLv5HQZnK4-unsplash.jpg);
     margin: 20px;
     border-style: double;
     border-color: black;
 }
-.led-img {
+.second-img {
     background-image: url(../images/mark-tegethoff-NMLv5HQZnK4-unsplash.jpg);
     margin: 20px;
     border-style: double;
     border-color: black;
 }
-.surf-img {
-    background-image: url(../images/jordan-ramos-g5KNw_SdXQQ-unsplash.jpg);
+.third-img {
+    background-image: url(../images/mark-tegethoff-NMLv5HQZnK4-unsplash.jpg);
+    margin: 20px;
+    border-style: double;
+    border-color: black;
+}
+.marketing-img {
+    background-image: url(../images/digital-marketing-meeting.jpg);
     margin: 20px;
     background-position: center;
     background-size: cover;
@@ -140,12 +147,15 @@ h2 {
     margin: 20px;    
     margin-top: 70px;
 }
-.surf-img:hover{
+.marketing-img:hover{
     filter: brightness(120%);
 }
-.led-img:hover{
+.first-img:hover{
     filter: brightness(120%);
 }
-.calc-img:hover{
+.second-img:hover{
+    filter: brightness(120%);
+}
+.third-img:hover{
     filter: brightness(120%);
 }
