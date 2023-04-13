@@ -6,3 +6,9 @@ creator Anthony DiSerafino. At the bottom of the page you will also have access 
 
 # How To Use
 In the head of the page their are three subheaders located on the top right of the screen,"about me","work", and "contact information". The user can click each individual subheader to be directed to the corrisponding article section. Furthermore, in the "work" section the user can click each individual image to be redirected the webpage that is linked for each. Lasty in the "contact information" section, the "link to github" text can be clicked on to be redirected to the creators github repository page. 
+
+#Webpage Link
+https://anthony-d99.github.io/challenge2/
+
+#Repository link
+https://github.com/Anthony-D99/challenge2
