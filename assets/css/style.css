@@ -93,7 +93,9 @@ h2 {
     flex-wrap: wrap;
 }
 .first-img {
-    background-image: url(../images/mark-tegethoff-NMLv5HQZnK4-unsplash.jpg);
+    background-image: url(../images/project\ 1\ sc.png);
+    background-position: center;
+    background-size: contain;
     margin: 20px;
     border-style: double;
     border-color: black;
